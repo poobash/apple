@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+.main{
+    background-image: url(./image/images\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    padding-left: 20px;
+    float: left;
+    font-size: 4em;
+    padding-top: 30px;
+    
+}
+.top{
+    float: left;
+    position: absolute;
+    left: 290px;
+    top: 20px;
+    text-decoration: none;   
+    
+}
+li{
+    float: left;
+    padding: 29px 20px;
+    margin: 10px;   
+    letter-spacing: 5px;
+    list-style: none;
+    
+}
+input{
+    background: transparent;
+    border-radius: 7px;
+    padding: 7px;
+    border: 3px solid white;
+}
+.b1{
+    border-radius: 7px;
+    padding: 7px;
+    background-color:bisque;
+    position: absolute;
+    top:0px;
+    outline: none;
+    border:none;
+}
+.side{
+    position: absolute;
+    right: 150px;
+    top: 53px;
+    
+    width: 18%;
+}   
+a{
+    color: darkslategray;
+    text-decoration: none;
+}  
+a:hover{
+    color: beige;
+}
+
+.p1{
+   position: absolute;
+   top: 180px;
+   left:5%;
+   line-height: 50px;
+   color: white;
+}
+p{
+    font-weight:bold ;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 30px;
+}
+.b2{
+color: white;
+ background-color:black;
+ padding: 10px;   
+ border-radius: 10px;
+
+}
+ .b2:hover{
+     background-color: blue;
+     color: black;
+ }
+ .form{
+     border: 2px solid gray;
+     width: 300px;
+     height: 350px;
+     position: absolute;
+     right: 50px;
+     bottom: 40px;
+     display: flex;
+     flex-direction: column;
+     color: white;
+     border-radius: 24px;     
+     box-shadow: 10px 10px 5px  white;   
+    }
+ .logo2{
+     text-align: center;
+     padding: 10px;
+     text-shadow: 2px 2px rgba(0, 102, 128, 0.842);
+ }
+ label{
+     text-align: center;
+     padding: 10px;
+     
+    }
+ input{
+    width: 80%;
+    margin:1px auto;
+    margin-bottom: 5px;
+    border: none;
+}
+.b3{
+    font-weight: bold;
+    margin: 25px;
+   background-color: blue;
+   border:none ;
+   padding: 10px;
+   border-radius: 10px;
+}
+.bottom{
+    text-align:center ;
+}
+h3{
+    position: absolute;
+    bottom: 70px;
+    right: 40%;
+    font-size: 80px;
+    color:silver;
+    text-shadow: -1px 1px 5px burlywood;
+}
